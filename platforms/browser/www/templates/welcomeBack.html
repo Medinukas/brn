@@ -1,0 +1,17 @@
+<ion-view title="Welcome Back" id="page6" class=" " data-ng-init="init()">
+    <ion-content padding="true" class="has-header">
+        <form id="welcomeBack-form1" class="list ">
+            <ion-list id="welcomeBack-list6" class=" ">
+                <label class="item item-input " id="welcomeBack-input1" name="email">
+                    <input type="text" placeholder="Email" ng-model="user.email">
+                </label>
+                <label class="item item-input " id="welcomeBack-input2" name="password">
+                    <input type="password" placeholder="Password" ng-model="user.password">
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            
+            <a  ng-click="doLogin()" id="welcomeBack-button10" style="border-radius:0px 0px 0px 0px;" class=" button button-balanced  ">LOGIN</a>
+        </form>
+    </ion-content>
+</ion-view>
